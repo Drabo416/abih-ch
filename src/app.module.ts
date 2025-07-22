@@ -11,7 +11,7 @@ import { PlaningModule } from './planing/planing.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://drabom123:h7dSueLM6gjt3vxs@cluster0.y9nv0up.mongodb.net/bioai?retryWrites=true&w=majority&appName=Cluster0',
+      'YOUR_MONGODB_LINK',
     ),
     UserModule,
     GeminiModule,
